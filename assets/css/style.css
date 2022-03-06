@@ -3,6 +3,7 @@
   padding: 10px;
   margin: 0px;
 }
+/* Add body */
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
@@ -18,7 +19,7 @@ h4{
 p {
   margin: 0;
 }  
-/* header */
+/* Add header */
 
 header{
   padding: 15px 6% 15px 0;
@@ -39,6 +40,7 @@ header h1 {
   line-height: 1;
   padding: 15px 1% 5px 6%;
 }
+/* Add Navigation and hover */
 nav {
   display: flex;
   flex-direction: row;
@@ -57,10 +59,12 @@ nav a:hover {
 .hero {
   background-color: lightcoral;
 }
+/* Add Main */
 main{
   margin: 20px auto 45px auto;
   max-width: 85%;
 }
+/* Add sectionArea */
 .sectionArea {
   margin: 25px 0;
   padding: 10px 0;
@@ -89,6 +93,7 @@ main{
   flex-wrap: wrap;
   justify-content: center;
 }
+/* Add Flexbox */
 .flexbox {
   border: 5px solid lightsalmon;
   background-color: aliceblue;
