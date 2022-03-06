@@ -6,9 +6,8 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
-  background-color: blue;
+  background-color: beige;
   line-height: 1.5;
-
 }
 h1,
 h2,
@@ -18,7 +17,7 @@ h4{
 }
 p {
   margin: 0;
-}
+}  
 /* header */
 
 header{
@@ -29,106 +28,14 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: beige;
-  box-shadow: 0 5px 35px gray;
+  box-shadow: 0 5px 35px whitesmoke;
 }
 header h1 {
   margin: 0;
-  color:whitesmoke;
-  background-color: rgb(7, 7, 80);
+  color: whitesmoke;
+  background-color: beige;
   font-family: cursive;
   font-size: 4vw;
   line-height: 1;
   padding: 15px 1% 5px 6%;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-nav a {
-  text-decoration: none;
-  padding: 5px 10px;
-  color: blue;
-  margin-right: 10px;
-}
-nav a:hover {
-  background-size: 100% 100%;
-  color: red;
-}
-
-
-
-.hero {
-    background-color: lightcoral;
-}
-main {
-  margin: 20px auto 45px auto;
-  max-width: 85%;
-}
-.sectionArea {
-  margin: 25px 0;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-}
-.sectionArea > h2{
-  flex: 0 0 20%;
-  text-align: right;
-  padding-right: 15px;
-  border-right: 4px solid blue;
-  font-size: 4vw;
-  line-height: 1.1;
-}
-.sectionArea > div {
-  flex: 0 0 77%;
-}
-.sectionArea p {
-  margin-bottom: 20px;
-}
-.container-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.flexbox {
-  border: 5px solid black;
-  background-color: aliceblue;
-  color: black;
-  min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 0.5eon;
-  background-blend-mode: soft-light;
-  background-size: 150%;
-  transition: all 0.5s;
-  font-size: 0.9rem;
-}
-.flexbox:first-child {
-  min-height: 400px;
-  flex-basis: 100%;
-}
-.flexbox:hover {
-  background-color: aqua;
-}
-.flexbox div {
-  background-color: aqua;
-  padding: 8px 10px;
-}
-.flexbox h3 {
-  font-size: 1.6rem;
-}
-/* contactArea */
-
-/* upload images to the anchor tags sir led */
-.surf {
-  background-image: url("../images/AishaHeadshot.jpg");
-
-  /* media-queries in the module copy 980 & 768 w3 schools */
-
 }
