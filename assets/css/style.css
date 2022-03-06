@@ -84,3 +84,39 @@ main{
 .sectionArea p {
   margin-bottom: 20px;
 }
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flexbox {
+  border: 5px solid black;
+  background-color: aliceblue;
+  color: black;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5eon;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+.flexbox:first-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+.flexbox:hover {
+  background-color: aqua;
+}
+.flexbox div {
+  background-color: aqua;
+  padding: 8px 10px;
+}
+.flexbox h3 {
+  font-size: 1.6rem;
+}
+/* contactArea */
