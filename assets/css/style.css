@@ -1,14 +1,15 @@
 * {
   box-sizing: border-box;
-  padding: 10px;
-  margin: 0px;
 }
+
 /* Add body */
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
   background-color: beige;
   line-height: 1.5;
+  padding: 10px;
+  margin: 0px;
 }
 h1,
 h2,
@@ -19,8 +20,8 @@ h4{
 p {
   margin: 0;
 }  
-/* Add header */
 
+/* Add header */
 header{
   padding: 15px 6% 15px 0;
   display: flex;
@@ -40,6 +41,7 @@ header h1 {
   line-height: 1;
   padding: 15px 1% 5px 6%;
 }
+
 /* Add Navigation and hover */
 nav {
   display: flex;
@@ -59,11 +61,13 @@ nav a:hover {
 .hero {
   background-color: lightcoral;
 }
+
 /* Add Main */
 main{
   margin: 20px auto 45px auto;
   max-width: 85%;
 }
+
 /* Add sectionArea */
 .sectionArea {
   margin: 25px 0;
@@ -88,6 +92,12 @@ main{
 .sectionArea p {
   margin-bottom: 20px;
 }
+.about {
+  display: flex;
+}
+.about img {
+  margin-right: 10px;
+}
 .container-flex {
   display: flex;
   flex-wrap: wrap;
@@ -96,7 +106,7 @@ main{
 /* Add Flexbox */
 .flexbox {
   border: 5px solid lightsalmon;
-  background-color: aliceblue;
+  background-color: aliceblue, 0 - 1;
   color: black;
   min-height: 150px;
   max-height: 150px;
@@ -104,7 +114,7 @@ main{
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
-  margin: 0.5eon;
+  margin: 0.5em;
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
@@ -116,6 +126,7 @@ main{
 }
 .flexbox:hover {
   background-color: aqua;
+ /* background-blend-mode: multiply; */
 }
 .flexbox div {
   background-color: aqua;
@@ -126,25 +137,25 @@ main{
 }
 /* contactArea */
 
-.sectionArea address:hover {
+.contact address a {
   /* flex: 0 0 20%; */
   /* padding-right: 15px; */
   /* color: lightcoral; */
   /* text-decoration: none; */
   /* padding: 5px 10px; */
-  text-align: left;
-  border-right: 10px soild aqua;
-  font-size: 2vw;
-  line-height: 1.1;
+  font-size: 1.3rem;
   color: lightcoral;
-  margin-left: 10px;
+  margin: 0 0.2rem 0.1rem 0;
   background-color: antiquewhite;
-  padding-right: 10px;
+  padding: 10px;
   box-shadow: 0 5px 15px aqua;
+  display: inline-block;
 }
 
-.sectionArea phone:hover {
-  /* flex: 0 0 20%; */
+.contact address a:hover {
+  background-size: 100% 100%;
+  color: aqua;
+  /* flex: 0 0 20%; 
   text-align: left;
   border-right: 10px soild aqua;
   font-size: 2vw;
@@ -153,5 +164,23 @@ main{
   margin-left: 10px;
   background-color: antiquewhite;
   padding-right: 10px;
-  box-shadow: 0 5px 15px aqua;
+  box-shadow: 0 5px 15px aqua; */
+}
+.park {
+  background-image: url("../images/Sequoia.jpg");
+}
+.generator {
+  background-image: url("../images/Password.jpg");
+}
+.scheduler {
+  background-image: url("../images/Planner.jpg");
+}
+.pastel {
+  background-image: url("../images/Code.jpg");
+}
+.run {
+  background-image: url("../images/Engineering.jpg");
+}
+.code {
+  background-image: url("../images/colorfulcode.jpg");
 }
