@@ -2,9 +2,7 @@
 
 
 # User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+This portfolio is available for potential employers to view my deployed portfolio of work samples to assess whether I am a good candidate for an open position.
 
 
 # Languages Used
@@ -13,7 +11,7 @@ CSS
 
 
 # Links
-This site was built using 
+This site is available at: (https://akimpson.github.io/MyPortfolioChallenge/)
 
 
 # Screenshots
