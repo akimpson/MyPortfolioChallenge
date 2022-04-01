@@ -30,7 +30,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: beige;
-  box-shadow: 0 5px 35px whitesmoke;
+  box-shadow: 0 5px 35px whitesmoke
 }
 header h1 {
   margin: 0;
