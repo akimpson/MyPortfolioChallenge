@@ -4,7 +4,8 @@
 
 /* Add body */
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: black;
   background-color: beige;
   line-height: 1.5;
@@ -14,15 +15,15 @@ body {
 h1,
 h2,
 h3,
-h4{
+h4 {
   margin: 0;
 }
 p {
   margin: 0;
-}  
+}
 
 /* Add header */
-header{
+header {
   padding: 15px 6% 15px 0;
   display: flex;
   direction: row;
@@ -30,7 +31,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: beige;
-  box-shadow: 0 5px 35px whitesmoke
+  box-shadow: 0 5px 35px whitesmoke;
 }
 header h1 {
   margin: 0;
@@ -63,7 +64,7 @@ nav a:hover {
 }
 
 /* Add Main */
-main{
+main {
   margin: 20px auto 45px auto;
   max-width: 85%;
 }
@@ -78,7 +79,7 @@ main{
   justify-content: space-between;
   align-items: stretch;
 }
-.sectionArea > h2{
+.sectionArea > h2 {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
@@ -126,7 +127,7 @@ main{
 }
 .flexbox:hover {
   background-color: aqua;
- /* background-blend-mode: multiply; */
+  /* background-blend-mode: multiply; */
 }
 .flexbox div {
   background-color: aqua;
@@ -175,8 +176,8 @@ main{
 .scheduler {
   background-image: url("../images/Planner.jpg");
 }
-.pastel {
-  background-image: url("../images/Code.jpg");
+.handy-man {
+  background-image: url("../images/handyman-paint.jpg");
 }
 .run {
   background-image: url("../images/Engineering.jpg");
