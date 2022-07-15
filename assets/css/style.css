@@ -185,6 +185,9 @@ main {
 .code {
   background-image: url("../images/colorfulcode.jpg");
 }
+.reel {
+  background-image: url("../images/FilmReel.jpg");
+}
 
 /* Media Queries */
 /* Extra small devices (phones, 600px and down) */
